@@ -18,7 +18,7 @@ NumPy’s default std() call. Store the normalized array in X normalized.
 
 **Required checks:** Display X, X normalized, its mean, and its standard deviation. Up to floating-
 point rounding, the normalized mean must be 0 and the normalized standard deviation must be 1.
-The functions that are used in this problem is:
+The functions that are used in this problem are:
 
 ● ```np.random.randomint()``` - used to generate random integers from a discrete uniform distribution within a specified half-open interval.
 
