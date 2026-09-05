@@ -28,7 +28,7 @@ of elements across all dimensions.
 
 This attribute of an array made the 5x5 array size possible.
 
-```
+```python
 x = np.random.randint(10, 101, size=(5, 5))
 
 print ("Original Array (x):", x)
@@ -42,7 +42,7 @@ This function made the computation of a large arrays instantly computed.
 ● ```std()``` - This function gets the standard deviation of the Multi-dimensional numerical arrays / matrices.
 
 These functions are all used and contribute to each other in order to solve the problem.
-```
+```python
  X_normalized = (x- X_mean)/X_std
 
 print ("X_normalized mean:", X_normalized.mean())
@@ -67,7 +67,7 @@ The functions that are important in this porblem are:
 ● ```np.arange()``` - is a core NumPy function used to create a 1D array of evenly spaced values within a given interval
 This function is mainly used to create the 1-100 array.
 
-```
+```python
 c = (np.arange(1, 101)**3).reshape(10,10)
 ```
 
@@ -80,7 +80,7 @@ to structure the data or else it would look like a one column data.
 This modulo operator is used to calculate the remainder of c divided by 4. Whereas if c is divisible by 4,
 the remainder is 0. That's why this was used to narrow down the array into elements that are divisible by 4.
 
-```
+```python
 div_by_4 = c[c % 4 == 0]
 
 print ("Shape of C:", c.shape)
@@ -117,7 +117,7 @@ that are greater than the overall mean of the 6 x 6 array.
 ● ```len()``` -  This function counts the data inside the array. Wherein in this case, was used to count the overall narrowed-data from the
 "S[S > S_mean]" equation.
 
-```
+```python
 print ("S:", S)
 print ("S_mean:", S_mean)
 print ("S above mean:", above_mean)
@@ -129,6 +129,7 @@ That's all for my second assignment. Thank you for reading!!
 
 August 30, 2026: Initial README output uploaded.
 
+September 5, 2026:  python code example was enhanced.
 
 
 
