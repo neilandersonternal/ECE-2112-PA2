@@ -42,13 +42,16 @@ This function made the computation of a large arrays instantly computed.
 ● ```std()``` - This function gets the standard deviation of the Multi-dimensional numerical arrays / matrices.
 
 These functions are all used and contribute to each other in order to solve the problem.
+The final function is:
+
 ```python
  X_normalized = (x- X_mean)/X_std
 
 print ("X_normalized mean:", X_normalized.mean())
 print ("X_normalized standard deviation:", X_normalized.std())
-
 ```
+This function simply substracts the mean average of the array from the original array and finally
+dividing to the standard deviation of the original array.
 
 # **B. CUBES DIVISIBLE BY 4 PROBLEM**
 
@@ -127,9 +130,11 @@ That's all for my second assignment. Thank you for reading!!
 
 **README** file version history:
 
-August 30, 2026: Initial README output uploaded.
+August 30, 2026: Initial README was output uploaded.
 
-September 5, 2026:  python code example was enhanced.
+September 5, 2026:  python code example was adjusted.
+
+September 17, 2026:  Revised README output was uploaded.
 
 
 
