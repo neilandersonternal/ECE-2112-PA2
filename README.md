@@ -109,6 +109,8 @@ solution has 15 selected elements; the first is 484 and the last is 1296.
 ● ```np.arange()``` - is a core NumPy function used to create a 1D array of evenly spaced values within a given interval
 This was also used in the problem B, but in this case, ```reshape()``` was added in order to make the array look like a 6 x 6 array.
 
+
+
 ● ```mean()``` - This function computes for the arithmetic mean of a dataset. This function from numpy typical uses for larger arrays/matrices.
 This function was used in getting the mean for the 6 x 6 array.
 
